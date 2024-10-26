@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Arial', sans-serif;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #fafafa;
+}
+
+.container {
+    display: flex;
+    width: 80%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.left-section {
+    flex: 1;
+    background: url('phone-mockup.png') no-repeat center center;
+    background-size: contain;
+}
+
+.carousel img {
+    width: 100%;
+    height: auto;
+}
+
+.right-section {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login-form {
+    max-width: 350px;
+    width: 100%;
+    background-color: #fff;
+    padding: 40px;
+    border: 1px solid #dbdbdb;
+    text-align: center;
+}
+
+.login-form h1 {
+    font-family: 'Billabong', cursive;
+    font-size: 48px;
+    color: #262626;
+}
+
+.login-form input {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    border: 1px solid #dbdbdb;
+    background-color: #fafafa;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    background-color: #3897f0;
+    color: white;
+    border: none;
+    margin-top: 10px;
+    cursor: pointer;
+}
+
+.divider {
+    position: relative;
+    margin: 15px 0;
+    text-align: center;
+    color: #8e8e8e;
+}
+
+.divider::before, .divider::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    width: 40%;
+    height: 1px;
+    background-color: #dbdbdb;
+}
+
+.divider::before {
+    left: 0;
+}
+
+.divider::after {
+    right: 0;
+}
+
+.facebook-login {
+    background-color: #4267b2;
+    color: white;
+}
+
+.signup {
+    margin-top: 20px;
+    font-size: 14px;
+}
+
+.download-app img {
+    margin: 10px;
+    height: 40px;
+}
